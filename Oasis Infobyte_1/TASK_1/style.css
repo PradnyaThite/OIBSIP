@@ -1,0 +1,136 @@
+body{
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    box-sizing: border-box;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    width: 150px;
+    display: block;
+    padding: 15px;
+    transition: 0.3s;
+    color:whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: orange;
+    text-decoration: underline;
+    transition: all;
+}
+.container{
+   margin-top: 220px;
+   margin-left: 250px;
+   color: white;  
+}
+.container h3 {
+   font-size: 70px;
+   font-weight: bolder;
+   color:orange;
+}
+.container p{
+    color:whitesmoke;
+    font-size: 23px;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Shippori Mincho B1', serif;
+}
+.container.btn{
+margin-left: 500px;
+}
+.container .btn a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 20px;
+    background-color: red;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid rgb(53, 53, 57);
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.container .btn a:hover{
+    background-color: rgb(214, 204, 224);
+    color: rgb(11, 4, 10);
+    border: none;
+    border-bottom: 4px solid rgb(144, 168, 220);
+    transition: 0.4s;
+}
+.product{
+    padding-bottom: 50px;
+    background-image: url(https://i0.wp.com/diplomartbrussels.com/wp-content/uploads/2020/09/food-background-images-94-images-in-co-381169-png-images-pngio-food-background-png-1440_619.png?fit=1440%2C619&ssl=1https://i0.wp.com/diplomartbrussels.com/wp-content/uploads/2020/09/food-background-images-94-images-in-co-381169-png-images-pngio-food-background-png-1440_619.png?fit=1440%2C619&ssl=1);
+    background-size: cover;
+}
+.product h2{
+    color: black;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+}
+.product .product_container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.product .product_container .item{
+    width: 33.33%;
+    margin: 10px;
+    height: auto;
+}
+.product .product_container .item:hover{
+    box-shadow: 0px 3px 65px 0px rgb(25, 26, 25);
+}
+.product .product_container .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product .product_container .item .item_img img{
+    width: 100%;
+    height: 250px;
+}
+.product .product_container .item h3{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product button{
+    height: 40px;
+    margin-left: 45%;
+    color: #fff;
+    background: red;
+    font-size: 22px;
+    padding: 5px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+.product button:hover{
+    background: black;
+    border: 3px solid rgb(51, 231, 5);
+    font-weight: bolder;
+}
+
